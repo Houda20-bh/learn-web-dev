@@ -1,0 +1,95 @@
+/*reset the page*/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+/*styling the anchors tags in the mainnavb*/
+#main-nav a
+{
+  color:#f6f7f8;
+  background-color:#254441;
+  display: block;
+  height: 65px;
+  font-family:cursive;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration:none;
+  transition:background 0.4s;
+}
+/*styling the hovers in the mainnavb*/
+
+#main-nav a:hover
+{
+  background-color:#305753;
+}
+/*styling the ul  in the mainnavb*/
+#main-nav ul
+{
+  list-style: none;
+  display: flex;
+}
+/*styling the ils in the first ul  in the mainnavb*/
+#main-nav li
+{
+  width:100%;
+  text-align:center;
+  position: relative;
+}
+/*styling the subbmenu*/
+#main-nav li:hover .sub-menu >li
+{
+  display:block;
+  top: 0px;
+}
+.sub-menu li
+{
+  display:none;
+  position: absolute;
+  top:0px;
+}
+.sub-menu
+{
+  display: flex;
+  flex-flow: column nowrap;
+  position: absolute;
+  top: auto;
+  margin:  0 auto;
+
+}
+/*styling the sub-menu2*/
+.sub-menu li:hover .sub-menu2>li
+{display: block;}
+
+.sub-menu2
+{
+  display: flex;
+  flex-flow: column nowrap;
+  position: absolute;
+  top:0px;
+  left: 100%;
+ width: 120px;}
+ /*styling the arrow class*/
+ .arrow
+ {
+   margin-left: 8px;
+   color:#eee;
+   font-size: 15px;
+ }
+ /*styling the heading*/
+ h1
+ {
+   font-size: 60px;
+   font-family: cursive;
+ }
+ /*styling the section*/
+ section
+ {
+ height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
