@@ -1,0 +1,79 @@
+/*reset the page*/
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* formatting the body*/
+body
+{
+  height: 100vh;
+  background-color: rgb(136,62,80);
+  font-family: monospace;
+}
+/*formatting buttons and anchor tags */
+a,button
+{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+/* formatting and styling the dropdown menu */
+.dropdown
+{
+  background-color: white;
+  display: flex;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.projects li , .products li{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* formatting and styling the uls menu */
+.projects ul  , .products ul
+{
+  position: absolute
+ list-style: none;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4 ease;
+}
+
+
+.dropdown button , .home{
+
+background-color: none;
+border: none;
+color:black;
+text-decoration: none;
+cursor: pointer;
+}
+.projects li:hover  , .products li:hover
+{
+  background-color: rgb(218, 178, 190);
+}
+.dropdown button:hover,  .home:hover
+{
+    background-color: rgb(200, 200, 224);}
+
+.projects button: focus + ul
+{
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px);
+}
