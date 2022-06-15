@@ -1,0 +1,27 @@
+
+html
+{
+  background-color: blue;
+}
+body
+{
+  width: 60%;
+  margin:0px  auto;
+  background-color: lawngreen;
+  border: 10px solid black;
+}
+#primary
+{
+  color: deepskyblue;
+}
+#secondary
+{
+  color: red;
+}
+img
+{
+  display:block;
+  margin:0px  auto;
+  border: 10px groove gold;
+  border-radius: 100%;
+}
