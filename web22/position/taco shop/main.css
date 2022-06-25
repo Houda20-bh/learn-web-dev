@@ -1,0 +1,27 @@
+
+html
+{
+  margin: 15px;
+}
+body
+{
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+nav
+{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 150px;
+
+}
+main
+{
+  margin-left: 150px;
+  padding-left: 20px;
+  border: 2px solid gray;
+
+}
