@@ -1,0 +1,22 @@
+div
+{
+  border-radius: 10px;
+}
+#one
+{
+  margin-left: 10px;
+  height: 1500px;
+  width: 500px;
+  background: #332200;
+  border: 5px dashed blue;
+}
+#two
+{
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  height: 80px;
+  width: 80px;
+  background-color: yellow;
+  border: 3px solid red;
+}
